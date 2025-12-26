@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" data-critters-container>
+  <script>
+  (function () {
+    const redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+<head>
+  <meta charset="utf-8">
+  <title>NaveenPortfolio</title>
+  <base href="C:/Program Files/Git/portfolio/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="nk.svg">
+<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+<body>
+  <app-root></app-root>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-SISEUW3U.js" type="module"></script></body>
+</html>

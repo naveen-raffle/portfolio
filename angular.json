@@ -38,7 +38,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/portfolio/",
+              "baseHref": "/",
               "budgets": [
                 {
                   "type": "initial",
